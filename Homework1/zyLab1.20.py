@@ -1,3 +1,6 @@
+#Kyle Dela Pena
+#2038252
+
 user_num = int(input('Enter integer:\n'))
 
 # Type your code here
