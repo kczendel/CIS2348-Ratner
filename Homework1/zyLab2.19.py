@@ -2,10 +2,14 @@
 # 2038252
 
 # FIXME (1): Finish reading other items into variables, then output the three ingredients
-lemon_cups = float(input('Enter amount of lemon juice (in cups):\n'))
-water_cups = float(input('Enter amount of water (in cups):\n'))
-nectar_cups = float(input('Enter amount of agave nectar (in cups):\n'))
-servings_cups = float(input('How many servings does this make?\n'))
+lemon_cups = float(input('Enter amount of lemon juice (in cups):'))
+print()
+water_cups = float(input('Enter amount of water (in cups):'))
+print()
+nectar_cups = float(input('Enter amount of agave nectar (in cups):'))
+print()
+servings_cups = float(input('How many servings does this make?'))
+print()
 
 print()
 print('Lemonade ingredients - yields {:.2f} servings'.format(servings_cups))
@@ -14,8 +18,9 @@ print('{:.2f} cup(s) water'.format(water_cups))
 print('{:.2f} cup(s) agave nectar'.format(nectar_cups))
 
 # FIXME (2): Prompt user for desired number of servings. Convert and output the ingredients
-
-desired_servings = float(input('\nHow many servings would you like to make?\n'))
+print()
+desired_servings = float(input('How many servings would you like to make?'))
+print()
 
 print()
 print('Lemonade ingredients - yields {:.2f} servings'.format(desired_servings))
