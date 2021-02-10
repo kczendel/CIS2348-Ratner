@@ -40,6 +40,7 @@ elif service1 == '-':
     total = total + 0
 else:
     print('Service 1: Invalid option')
+    
 if service2 == 'Oil change':
     print('Service 2: Oil change, $35')
     total = total + 35
