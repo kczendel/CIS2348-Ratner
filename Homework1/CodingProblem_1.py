@@ -22,6 +22,6 @@ birth_month = int(input('Month: '))
 birth_day = int(input('Day: '))
 birth_year = int(input('Year: '))
 
-print("you are ", calculate_age(date(year, month, day), date(birth_year, birth_month, birth_day)), "years old.")
+print("You are", calculate_age(date(year, month, day), date(birth_year, birth_month, birth_day)), "years old.")
 if day == birth_day & month == birth_month & year == birth_year:
     print("Happy Birthday!")
