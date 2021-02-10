@@ -27,7 +27,8 @@ print("Cans needed: " + str(cans) + " can(s)")
 
 # FIXME (4): Calculate and output the total cost of paint can needed depending on color
 print()
-color=input("Choose a color to paint the wall:\n")
+color=input("Choose a color to paint the wall:")
+print()
 cost=cans * paint_colors[color.lower()]
 
 print ("Cost of purchasing " + str(color) + " paint: $" + str(cost))
