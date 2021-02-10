@@ -4,13 +4,14 @@
 import math
 
 # Dictionary of paint colors and cost per gallon
-paint_colors = {'red': 35, 'blue': 25, 'green': 23}
+paint_colors={'red':35,'blue':25,'green':23}
 
 # FIXME (1): Prompt user to input wall's width
 # Calculate and output wall area
-height = int(input("Enter wall height (feet):\n"))
-width = int(input("Enter wall width (feet):\n"))
-
+height = int(input("Enter wall height (feet):"))
+print()
+width = int(input("Enter wall width (feet):"))
+print()
 # FIXME (2): Calculate and output the amount of paint in gallons needed to paint the wall
 wall_area = height * width
 
@@ -25,7 +26,8 @@ print("Paint needed: {:.2f} gallons".format(paint_needed))
 print("Cans needed: " + str(cans) + " can(s)")
 
 # FIXME (4): Calculate and output the total cost of paint can needed depending on color
-color = input("\nChoose a color to paint the wall:\n")
-cost = cans * paint_colors[color.lower()]
+print()
+color=input("Choose a color to paint the wall:\n")
+cost=cans * paint_colors[color.lower()]
 
-print("Cost of purchasing " + str(color) + " paint: $" + str(cost))
+print ("Cost of purchasing " + str(color) + " paint: $" + str(cost))
