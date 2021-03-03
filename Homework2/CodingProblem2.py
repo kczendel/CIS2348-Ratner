@@ -17,8 +17,8 @@ for line in input_file:
                 day = day[:len(day) - 1]
                 month_number = month_list[month.upper()]
                 ans = month_number + "/" + day + "/" + year
-
                 output_file.write(ans)
                 output_file.write("\n")
+                
 output_file.close()
 input_file.close()
