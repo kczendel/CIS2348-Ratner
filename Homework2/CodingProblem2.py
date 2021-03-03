@@ -2,6 +2,8 @@ month_list = {"January":"1", "February":"2", "March":"3", "April":"4", "May":"5"
              "August":"8", "September":"9", "October":"10", "November":"11", "December":"12"}
 
 input_file = open(input(), 'r')
+output_file =open('parsedDates.txt','w')
+
 for line in input_file:
     if line != "-1":
         date = line.split()
