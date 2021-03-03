@@ -33,7 +33,4 @@ for line in input_file:
 
 output_file.close()
 input_file.close()
-print(year)
-print(today1)
-print(today2)
-print(today3)
+
