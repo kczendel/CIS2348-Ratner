@@ -1,8 +1,11 @@
-month_list = {"JANUARY":"1","FEBRUARY":"2", "MARCH":"3","APRIL":"4", "MAY":"5", "JUNE":"6","JULY":"7",
-             "AUGUST":"8", "SEPTEMBER":"9","OCTOBER":"10", "NOVEMBER":"11", "DECEMBER":"12"}
+# Kyle Dela Pena
+# 2038252
+
+month_list = {"JANUARY": "1", "FEBRUARY": "2", "MARCH": "3", "APRIL": "4", "MAY": "5", "JUNE": "6", "JULY": "7",
+             "AUGUST": "8", "SEPTEMBER": "9", "OCTOBER": "10", "NOVEMBER": "11", "DECEMBER": "12"}
 
 input_file = open('inputDates.txt', 'r')
-output_file =open('parsedDates.txt','w')
+output_file = open('parsedDates.txt', 'w')
 
 for line in input_file:
     if line != "-1":
@@ -19,6 +22,6 @@ for line in input_file:
                 ans = month_number + "/" + day + "/" + year
                 output_file.write(ans)
                 output_file.write("\n")
-                
+
 output_file.close()
 input_file.close()
