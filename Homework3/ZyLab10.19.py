@@ -141,8 +141,7 @@ def print_menu(newCart):
         print(menu, end='\n')
         command = input('Choose an option:')
         print()
-        while (
-                command != 'a' and command != 'o' and command != 'i' and command != 'q' and command != 'r' and command != 'c'):
+        while (command != 'a' and command != 'o' and command != 'i' and command != 'q' and command != 'r' and command != 'c'):
             command = input('Choose an option:')
             print()
         if (command == 'a'):
