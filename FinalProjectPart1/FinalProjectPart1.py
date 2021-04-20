@@ -2,7 +2,7 @@
 # 2038252
 
 import csv
-import datetime
+from datetime import datetime
 
 # Class to generate inventory files
 class CreateInventory:
